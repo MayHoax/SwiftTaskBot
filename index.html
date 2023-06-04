@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SwiftTaskBot</title>
+  <title>AI Helper Bot</title>
   <!-- Подключение CSS Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
@@ -17,14 +17,40 @@
 <body>
   <header class="bg-dark text-light py-3">
     <div class="container text-center">
-      <h1 style="color: gold">SwiftTaskBot</h1>
+      <h1 style="color: gold">AI Helper Bot</h1>
     </div>
   </header>
 
   <main class="py-5">
     <section class="container text-center">
-      <h1 style="color: gold">Description</h1>
-      <p style="font-size: 30px">This is a telegram bot that contains features for daily use in order to combine everything in one.</p>
+      <h1 style="color: gold">Project Name: AI Helper Bot (with OpenAI GPT-3.5 Turbo)</h1>
+      <p style="font-size: 30px">This project is an AI-powered chatbot implemented using the aiogram library and the OpenAI GPT-3.5 Turbo API. The chatbot interacts with users in a messaging platform and provides various functionalities.
+
+        <b>Key Features:</b>
+
+Command Help: Users can use the '/commands' or '/help' command to get a list of available commands and a brief description of each command.
+
+Weather Information: By using the '/weather' command, users can retrieve the current weather information.
+
+Currency Exchange Rates: The '/currency' command enables users to obtain the latest currency exchange rates.
+
+Text Translation: Users can translate text to another language using the '/translate' command.
+
+Random Jokes: The '/joke' command generates and delivers a random joke to entertain users.
+
+Image Generation: With the '/image' command, users can request the chatbot to generate an image based on the provided description. The chatbot utilizes the OpenAI Image API to generate the image.
+
+        <b>Usage:</b>
+
+Start the chatbot by sending the '/start' command. The bot will greet the user and provide instructions on how to use the available commands.
+
+Users can interact with the chatbot by sending text messages. The chatbot processes the user's message and generates a response using the OpenAI Chat API.
+
+The chatbot supports continuous conversation by maintaining the message history for each user. Previous messages from the user are considered in generating responses.
+
+If the chatbot encounters an error related to memory limitations, users can send the '/newtopic' command to start a new conversation topic.
+
+        <b>Note:</b> The chatbot may take a short delay to respond as it processes the user's request and generates a suitable response..</p>
       <h2 style="color: gold">What can it do?</h2>
       <ul class="list-unstyled" style="font-size: 25px">
         <li>Weather</li>
@@ -36,7 +62,7 @@
     </section>
     <footer class="bg-dark text-light py-1 fixed-bottom">
       <div class="container text-center">
-        <h2>Start using SwiftTaskBot</h2>
+        <h2>Start using AI Helper Bot</h2>
         <a class="btn btn-primary" href="https://t.me/SwiftTaskBot">Start</a>
       </div>
     </footer>
@@ -49,3 +75,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
