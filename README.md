@@ -1,5 +1,5 @@
 # AI Helper Bot
-https://github.com/MayHoax/SwiftTaskBot
+https://mayhoax.github.io/SwiftTaskBotPage
 
 This project is an AI-powered chatbot implemented using the aiogram library and the OpenAI GPT-3.5 Turbo API. The chatbot interacts with users in a messaging platform and provides various functionalities.
 
